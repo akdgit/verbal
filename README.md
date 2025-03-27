@@ -1,3 +1,102 @@
+#Verbalize
+English verbs search engine.
+Web app developed in  **React** that allows to search verbs in English and consult its differents verbals forms.
+
+The user can into a verb in  **simple present* and get:
+.- Infinitive.
+.- Third person.
+.- Simple past.
+.- Past participle.
+.- Gerund.
+.- Translation to Spanish.
+
+ # MVP Demo in production version
+
+[See the project in Vercel](https://verbal-five.vercel.app/) 
+
+#Technologies used
+ **React** - JavaScript library for user interfaces.
+-  **CSS3** - Custom styles for responsive design.
+-  **JSON** - Verbs local data base.
+-  **Vercel** - Deploiment and hosting of project.
+
+
+ # Installation and Use
+
+# **Clone repository:**
+```bash
+git clone https://github.com/akdgit/verbal.git
+cd verbal
+
+  # **Install dependencies:**
+```bash
+npm install
+```
+
+# **Execute project in local enviroment:**
+```bash
+npm start
+```
+The project will be opened in: `http://localhost:3000/
+
+
+ ## Project structure
+
+```
+verbal/
+│── public/
+│   ├── verbs.json     # File contaiiner of verbs data base
+│   ├── index.html     # Main file HTML
+│
+│── src/
+│   ├── components/
+│   │   ├── search.js  # Lógic of search engine
+│   ├── App.js         # Main Component of app.
+│   ├── App.css        # App styles
+│   ├── index.js       # Project entry point
+│
+│── README.md          # Project documentaton
+│── package.json       # Dependencies and scripts of NPM
+│── .gitignore         # Files ignored in Git
+```
+ # Search engine operation
+
+- ** Input**: The user input a verb in English in search field.
+- ** Search**: The verb is consulted in `verbs.json`.
+- ** Result**: The differents verbs form are displayed.
+- ** Error**: If the verb doesn't exist, a window alert is showed.
+
+##  Deployment in Vercel
+
+For deploy this project in Vercel:
+
+1. Go to [[https://vercel.com/](https://vercel.com/) and login with git hub account.
+2. Importar repository `verbal`.
+3. Set **Build Command** as:
+   ```bash
+   npm run build
+   ```
+4. Set **Output Directory** as `build`.
+5. Clic on **Deploy**.
+6. The public URL will be generated as `https://verbal-five.vercel.app/`.
+
+---
+## Accessibility and responsive design 
+
+.- Compatible with screen reader (`aria-label`, `aria-live`)  
+.- Responsive design to mobiles and tablets (`@media queries`)  
+.- Accessible Navegation with `Tab` and `Enter`  
+
+---
+
+## Author
+- **Developer:** [Juan Carlos Camacaro] *(akdgit).*  
+
+- **License:** This project is distributed under license MIT.
+
+---
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
