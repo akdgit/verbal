@@ -1,8 +1,11 @@
 import React from 'react';
 import './App.css';
-import SearchVerbs from "./components/search.js"
+import SearchVerbs from "./components/search.js";
+import VerbList from "./components/VerbList.js";
 import ima from "./images/teacher"
+
 function App() {
+
   return (
     <div className="App">
       <div className= "main" role="main">
@@ -29,6 +32,9 @@ function App() {
           <div className='imagen'>
             <img alt='imagen decorativa' src= { ima } />
           </div>
+        </div>
+        <div className='show-list'>
+          <VerbList />
         </div>
       </div>
     </div>
