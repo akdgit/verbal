@@ -21,7 +21,7 @@ function App() {
             </p>
             <ul>
               <li className='inst'>Ingresa el verbo a consultar en presente, por ejemplo: <i>"Break".</i></li>
-              <li className='inst'>Haz clic en el botón "Cosnultar".</li>
+              <li className='inst'>Haz clic en el botón "Consultar".</li>
               <li className='inst'>Podrás ver en los resultados el verbo en su forma simple, tercera persona, pasado simple, pasado participio, gerundio y su significado en castellano.</li>
             </ul>
             <mark className='nota' tabIndex="0">
